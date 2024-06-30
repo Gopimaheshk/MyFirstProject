@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(241, 232, 237);
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 139, 125);
+}
+.edu{
+    color: aliceblue;
+    text-align: left;
+}
+.edu ul{
+    color: rgb(255, 94, 0);
+}
+.edu ol li {
+    color: black;
+}
+.edu ol li label{
+    color: cornflowerblue;
+}

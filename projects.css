@@ -1,0 +1,53 @@
+body{
+    background: color #f7f7f7;;
+    background-image: url(bg2.jpg);
+}
+.projects{
+    text-align: center;
+    color: rgb(1, 1, 31);
+    font-size: large;
+    font-weight: bold;
+}
+.mini ul{
+    color: brown;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px rgb(255, 0, 34);
+    padding-top: 30px;
+}
+.mini ul li{
+    color: rgb(255, 72, 0);
+}
+.mini ol{
+    color: rgb(26, 2, 16);
+    border: 2px solid rgb(2, 20, 92);
+    border-radius: 20px;
+    max-width:400px;
+    box-shadow: 0px 2px 6px 0px #0c0101;
+    background-color: antiquewhite;
+}
+.mini p{
+    color: rgb(28, 123, 206);
+}
+.major ul{
+    color: rgb(251, 5, 5);
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px rgb(255, 0, 34);
+    
+}
+.major ul li{
+    color: rgb(91, 3, 3);
+    padding-top: 50px;
+}
+.major ol{
+    color: rgb(26, 2, 16);
+    border: 2px solid rgb(2, 20, 92);
+    border-radius: 20px;
+    max-width:400px;
+    box-shadow: 0px 2px 6px 0px #0c0101;
+    background-color: antiquewhite;
+}
+.major p{
+    color: rgb(22, 109, 185);
+}

@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(231, 242, 244);
+}
+.container{
+ display: flex;   
+ justify-content: space-between;
+ max-width:600px;
+ text-align: center;
+ margin: 0 auto;
+ margin-top: 100px;
+ 
+}
+.c1{
+    border:2px solid rebeccapurple;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #0c0101;
+
+}
+.c1:hover{
+    color: rgb(12, 12, 12);
+    background-color: rgba(11, 64, 170, 0.914);
+    cursor: pointer;
+    
+}
+.c2{
+    border:2px solid rebeccapurple;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #0c0101;
+}
+.c2:hover{
+    color: rgb(8, 226, 216);
+    background-color: rgba(4, 11, 25, 0.642);
+    cursor: pointer;
+}
+.c3{
+    border:2px solid rebeccapurple;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px #0c0101;
+}
+.c3:hover{
+    color: rgb(12, 12, 12);
+    background-color: rgba(193, 207, 4, 0.975);
+    cursor: pointer;
+}
+.container1{
+    display: flex;   
+    justify-content: space-between;
+    max-width:50px;
+    text-align: center;
+    margin: 0 auto;
+    
+   }
+   .c4{
+       border:2px solid rebeccapurple;
+       padding: 20px 20px 20px 20px;
+       border-radius: 10px;
+       box-shadow: 0px 2px 6px 0px #0c0101;
+       max-width: 70px;
+       margin: 0 auto;
+       margin-top: 50px;
+       text-align: center;
+
+   
+   }
+   .c4:hover{
+    cursor: pointer;
+    background-color: rgb(60, 255, 0);
+   }

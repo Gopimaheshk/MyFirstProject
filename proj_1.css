@@ -1,0 +1,92 @@
+:root{
+    --bgcolor:rgba(19, 223, 223, 0);
+
+}
+body{
+    margin:0;
+    background-color:rgba(205, 38, 38, 0.242);
+    
+}
+header{
+    
+    display: flex;
+    color:var(--bg-color);
+    border: 2px solid rgba(233, 89, 180, 0.581);
+    justify-content: space-between;
+    box-shadow: 10px 10px 5px rgba(230, 229, 230, 0.901);
+    background-color:rgba(0, 1, 6, 0.974);
+    block-size: 100px;
+   
+    
+}
+.logo{
+    color: goldenrod;
+    padding: 30px 25px;
+}
+.logo label{
+    color: azure;
+    font-size: 21px;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2px;
+    font-family:sans-serif;
+    padding: 20px;
+    
+}
+nav ul li a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: all .5s;
+    padding: 35px 50px 1px 10px;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+section{
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    padding: 5px 15px 0px 10px;
+    background-image: url(bg5.jpg);
+    background-blend-mode:color-dodge;
+    
+}
+.container{
+   
+    display:flex;
+    justify-content:space-between;
+    padding-top: 100px;
+    margin: 0 auto;
+    border-radius: 2px;
+    
+    border-radius: 20px;
+    max-width: 600px;
+}
+.left{
+    padding: 50px 10px 30px 50px;
+    color: rgba(23, 4, 132, 0.752);
+    text-align: center;
+    max-width: 100px;
+   
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 1px 1px rgb(15, 3, 126);
+
+
+
+}
+.right img{
+    border-radius:200px;
+    box-shadow: 0px 6px 8px 0px #08365af9;
+    width: 300px;
+    border:2px solid rgb(10, 16, 18);
+background-color: rgb(50, 89, 115);
+background-image: url(bg5.jpg);
+}
+
+
+
+
